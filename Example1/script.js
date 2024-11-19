@@ -1,4 +1,4 @@
-       /*Fetch the content of the file data.txt*/ 
+       //Fetch the content of the file data.txt 
        fetch("data.txt")
        .then(response => response.text())
        .then(data => {
