@@ -29,7 +29,7 @@ Fill in the blank:
 The fetch() function is used to request resources. Here, you want to fetch a file named data.txt that is in the same directory as your HTML file.
 Fill in the blank:
 ```javascript
-fetch(data.txt)
+fetch("data.txt")
 ```
 🗝️ Hint: Since the file is in the same folder as your HTML file, you can simply use the file name. 
 
@@ -37,7 +37,7 @@ fetch(data.txt)
 After successfully fetching the file, you'll receive its content in response. To confirm you've fetched the data correctly, log it to the console.
 Fill in the blank:
 ```javascript
-????C????
+console.log(data);
 ```
 🗝️ Hint: To log something in JavaScript, use a function that starts with "console" and ends with "log". 
 
@@ -45,7 +45,7 @@ Fill in the blank:
 You need to find the \<pre\> element in your HTML where you want to display the text. Use JavaScript to select this element by its id.
 Fill in the blank:
 ```javascript
-????D????.textContent = data;
+document.getElementById('output').textContent = data;
 ```
 🗝️ Hint: You can select an element by its `id` using `document.getElementById('id')`. 
 
