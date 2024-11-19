@@ -21,7 +21,7 @@ In Example1/index.html, your task is to complete the missing JavaScript code to 
 In HTML, to include JavaScript code, you need to start with a specific tag. This tag tells the browser that what follows is JavaScript.
 Fill in the blank:
 ```html
-????A????
+<script>
 ``` 
 🗝️ Hint: Think of the tag used to include JavaScript directly in an HTML file. 
 
@@ -29,7 +29,7 @@ Fill in the blank:
 The fetch() function is used to request resources. Here, you want to fetch a file named data.txt that is in the same directory as your HTML file.
 Fill in the blank:
 ```javascript
-fetch(????B????)
+fetch(data.txt)
 ```
 🗝️ Hint: Since the file is in the same folder as your HTML file, you can simply use the file name. 
 
@@ -53,7 +53,7 @@ Fill in the blank:
 Remember to close the block of JavaScript code that you started in Step 1.
 Fill in the blank:
 ```html
-????E????
+</script>
 ```
 🗝️ Hint: This is the tag that indicates the end of the script.
 
